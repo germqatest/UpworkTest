@@ -18,7 +18,7 @@ class SearchResultPage < BasePage
   FREELANCER_SKILLS = ElementLocator.new(:xpath,
                                          SEARCH_RESULT_LOCATOR + '//a[contains(@class,"o-tag-skill")]')
   FREELANCER_ADDITIONAL_SKILLS = ElementLocator.new(:xpath,
-                                                    SEARCH_RESULT_LOCATOR + '//div[@class="col-xs-12"]/span[@class="d-none"]')
+                                                    SEARCH_RESULT_LOCATOR + '//a[contains(@title,"more")]/parent::*/span[@class="d-none"]')
 
   FREELANCER_PROFILE_LINK = ElementLocator.new(:xpath,
                                                SEARCH_RESULT_LOCATOR + '//div[contains(@class,"ellipsis")]//h4/a')
