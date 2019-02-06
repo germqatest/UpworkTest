@@ -1,0 +1,15 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+.idea/
+.idea/UpworkTest.iml
+.idea/workspace.xml
+/bin/
+.rubocop.yml
+*.lock
